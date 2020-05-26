@@ -11,9 +11,9 @@ public class IndexController {
     @RequestMapping(value = "/index", method = RequestMethod.GET)
     public ModelAndView index(){
         ModelAndView mv = new ModelAndView();
-        mv.setViewName("index"); //뷰이름 지정
+        mv.setViewName("layout/layout"); //뷰이름 지정
 
-        mv.addObject("sayHello", "Hello, World!!");
+        mv.addObject("action", "../index.jsp");
         //뷰로 넘길 데이터를 modelandview 객체에 담음.
 
         return mv;

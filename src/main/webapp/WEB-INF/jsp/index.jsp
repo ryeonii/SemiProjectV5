@@ -5,7 +5,7 @@
         <div class="row">
             <div class="col-md-12 text-center">
                 <h1 class="display-3 margin30 margin30">Arong2 Project</h1>
-                <img src="../../img/dgr.png" class="margin30" style="width: 400px; height: 400px; margin: 15px;">
+                <img src="../../resources/img/dgr.png" class="margin30" style="width: 400px; height: 400px; margin: 15px;">
                 <p>아롱아 밥먹어라 아롱아 밥먹어라 아롱아 밥먹어라 아롱아 밥먹어라
                     아롱아 밥먹어라 아롱아 밥먹어라 아롱아 밥먹어라 아롱아 밥먹어라
                     아롱아 밥먹어라 아롱아 밥먹어라 아롱아 밥먹어라 아롱아 밥먹어라

@@ -1,4 +1,4 @@
-package siestageek.spring.mvc.controller;
+package ryeonii.spring.mvc.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;

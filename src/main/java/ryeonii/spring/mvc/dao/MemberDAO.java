@@ -3,7 +3,7 @@ package ryeonii.spring.mvc.dao;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Repository;
-import siestageek.spring.mvc.vo.MemberVO;
+import ryeonii.spring.mvc.vo.MemberVO;
 
 import java.sql.*;
 import java.util.ArrayList;
@@ -21,7 +21,8 @@ public class MemberDAO {
     }
 
     // 회원 데이터를 member테이블에 저장
-    public boolean insertMember( MemberVO m ) {
+    public boolean insertMember( MemberVO
+                                         m ) {
         // 실행할 sql문 정의
         String sql = "insert into member (name,userid,passwd,jumin,zipcode,addr1,addr2,email,mobile) values (?,?,?,?,?, ?,?,?,?)";
 
